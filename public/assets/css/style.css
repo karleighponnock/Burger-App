@@ -1,5 +1,6 @@
 body{
 background-color: rgb(209, 180, 127);
+background-image: url(theburger.jpg);
 }
 
 li {
@@ -13,7 +14,7 @@ li {
   font-weight: bold;
 }
 
-input{
+input#ca{
 height:50px;
 width:300px;
 border-radius: 5%;
@@ -27,6 +28,10 @@ border-radius: 5%;
 
 .form-group {
   margin-bottom: 5px;
+  clear: both;
+  align-self: center;
+  text-align: center;
+  
 }
 
 h1{
@@ -37,16 +42,23 @@ color: red;
 
 #plated{
   float:left;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 #devoured{
-  float: left;
+  float: right;
   margin-right: 15%;
 }
 
 #addNew{
 clear: both;
-
 text-align: center;
+}
+
+#submit{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  transform: translate(-50%, -50%);
 }
